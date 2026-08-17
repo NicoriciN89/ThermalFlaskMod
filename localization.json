@@ -1,0 +1,122 @@
+{
+  "English": {
+    "TF.SEC_INDOOR": "Heat retention indoors",
+    "TF.SEC_OUTDOOR": "Heat retention outdoors",
+    "TF.INDOOR_SPEED": "Heat retention speed indoors",
+    "TF.OUTDOOR_SPEED": "Heat retention speed outdoors",
+    "TF.DESC_INDOOR_SPEED": "How fast the flask cools down while indoors, relative to vanilla. Lower = stays warm longer.",
+    "TF.DESC_OUTDOOR_SPEED": "How fast the flask cools down while outdoors, relative to vanilla. Lower = stays warm longer."
+  },
+  "Russian": {
+    "TF.SEC_INDOOR": "Сохранение тепла в помещении",
+    "TF.SEC_OUTDOOR": "Сохранение тепла на улице",
+    "TF.INDOOR_SPEED": "Скорость остывания в помещении",
+    "TF.OUTDOOR_SPEED": "Скорость остывания на улице",
+    "TF.DESC_INDOOR_SPEED": "Насколько быстро термос остывает в помещении, относительно ванильного значения. Меньше = дольше держит тепло.",
+    "TF.DESC_OUTDOOR_SPEED": "Насколько быстро термос остывает на улице, относительно ванильного значения. Меньше = дольше держит тепло."
+  },
+  "French": {
+    "TF.SEC_INDOOR": "Rétention de chaleur en intérieur",
+    "TF.SEC_OUTDOOR": "Rétention de chaleur en extérieur",
+    "TF.INDOOR_SPEED": "Vitesse de refroidissement en intérieur",
+    "TF.OUTDOOR_SPEED": "Vitesse de refroidissement en extérieur",
+    "TF.DESC_INDOOR_SPEED": "Vitesse à laquelle la gourde refroidit en intérieur, par rapport à la valeur d'origine. Plus bas = reste chaude plus longtemps.",
+    "TF.DESC_OUTDOOR_SPEED": "Vitesse à laquelle la gourde refroidit en extérieur, par rapport à la valeur d'origine. Plus bas = reste chaude plus longtemps."
+  },
+  "German": {
+    "TF.SEC_INDOOR": "Wärmespeicherung drinnen",
+    "TF.SEC_OUTDOOR": "Wärmespeicherung draußen",
+    "TF.INDOOR_SPEED": "Abkühlgeschwindigkeit drinnen",
+    "TF.OUTDOOR_SPEED": "Abkühlgeschwindigkeit draußen",
+    "TF.DESC_INDOOR_SPEED": "Wie schnell die Flasche drinnen abkühlt, relativ zum Originalwert. Niedriger = bleibt länger warm.",
+    "TF.DESC_OUTDOOR_SPEED": "Wie schnell die Flasche draußen abkühlt, relativ zum Originalwert. Niedriger = bleibt länger warm."
+  },
+  "Spanish": {
+    "TF.SEC_INDOOR": "Retención de calor en interiores",
+    "TF.SEC_OUTDOOR": "Retención de calor en exteriores",
+    "TF.INDOOR_SPEED": "Velocidad de enfriamiento en interiores",
+    "TF.OUTDOOR_SPEED": "Velocidad de enfriamiento en exteriores",
+    "TF.DESC_INDOOR_SPEED": "Qué tan rápido se enfría el termo en interiores, respecto al valor original. Menor = se mantiene caliente más tiempo.",
+    "TF.DESC_OUTDOOR_SPEED": "Qué tan rápido se enfría el termo en exteriores, respecto al valor original. Menor = se mantiene caliente más tiempo."
+  },
+  "Brazilian": {
+    "TF.SEC_INDOOR": "Retenção de calor em ambientes internos",
+    "TF.SEC_OUTDOOR": "Retenção de calor em ambientes externos",
+    "TF.INDOOR_SPEED": "Velocidade de resfriamento interno",
+    "TF.OUTDOOR_SPEED": "Velocidade de resfriamento externo",
+    "TF.DESC_INDOOR_SPEED": "Quão rápido a garrafa térmica esfria em ambientes internos, em relação ao valor original. Menor = mantém o calor por mais tempo.",
+    "TF.DESC_OUTDOOR_SPEED": "Quão rápido a garrafa térmica esfria em ambientes externos, em relação ao valor original. Menor = mantém o calor por mais tempo."
+  },
+  "Polish": {
+    "TF.SEC_INDOOR": "Utrzymywanie ciepła w pomieszczeniu",
+    "TF.SEC_OUTDOOR": "Utrzymywanie ciepła na zewnątrz",
+    "TF.INDOOR_SPEED": "Szybkość stygnięcia w pomieszczeniu",
+    "TF.OUTDOOR_SPEED": "Szybkość stygnięcia na zewnątrz",
+    "TF.DESC_INDOOR_SPEED": "Jak szybko termos stygnie w pomieszczeniu, względem wartości oryginalnej. Niżej = dłużej utrzymuje ciepło.",
+    "TF.DESC_OUTDOOR_SPEED": "Jak szybko termos stygnie na zewnątrz, względem wartości oryginalnej. Niżej = dłużej utrzymuje ciepło."
+  },
+  "Czech": {
+    "TF.SEC_INDOOR": "Udržení tepla uvnitř",
+    "TF.SEC_OUTDOOR": "Udržení tepla venku",
+    "TF.INDOOR_SPEED": "Rychlost chladnutí uvnitř",
+    "TF.OUTDOOR_SPEED": "Rychlost chladnutí venku",
+    "TF.DESC_INDOOR_SPEED": "Jak rychle termoska chladne uvnitř, vzhledem k původní hodnotě. Nižší = zůstává teplá déle.",
+    "TF.DESC_OUTDOOR_SPEED": "Jak rychle termoska chladne venku, vzhledem k původní hodnotě. Nižší = zůstává teplá déle."
+  },
+  "Turkish": {
+    "TF.SEC_INDOOR": "İç mekanda ısı koruması",
+    "TF.SEC_OUTDOOR": "Dış mekanda ısı koruması",
+    "TF.INDOOR_SPEED": "İç mekanda soğuma hızı",
+    "TF.OUTDOOR_SPEED": "Dış mekanda soğuma hızı",
+    "TF.DESC_INDOOR_SPEED": "Termosun iç mekanda ne kadar hızlı soğuduğu, varsayılan değere göre. Düşük = daha uzun süre sıcak kalır.",
+    "TF.DESC_OUTDOOR_SPEED": "Termosun dış mekanda ne kadar hızlı soğuduğu, varsayılan değere göre. Düşük = daha uzun süre sıcak kalır."
+  },
+  "Italian": {
+    "TF.SEC_INDOOR": "Mantenimento del calore in interni",
+    "TF.SEC_OUTDOOR": "Mantenimento del calore in esterni",
+    "TF.INDOOR_SPEED": "Velocità di raffreddamento in interni",
+    "TF.OUTDOOR_SPEED": "Velocità di raffreddamento in esterni",
+    "TF.DESC_INDOOR_SPEED": "Quanto velocemente il thermos si raffredda in interni, rispetto al valore originale. Più basso = resta caldo più a lungo.",
+    "TF.DESC_OUTDOOR_SPEED": "Quanto velocemente il thermos si raffredda in esterni, rispetto al valore originale. Più basso = resta caldo più a lungo."
+  },
+  "Dutch": {
+    "TF.SEC_INDOOR": "Warmtebehoud binnenshuis",
+    "TF.SEC_OUTDOOR": "Warmtebehoud buitenshuis",
+    "TF.INDOOR_SPEED": "Afkoelsnelheid binnenshuis",
+    "TF.OUTDOOR_SPEED": "Afkoelsnelheid buitenshuis",
+    "TF.DESC_INDOOR_SPEED": "Hoe snel de thermosfles binnenshuis afkoelt, ten opzichte van de originele waarde. Lager = blijft langer warm.",
+    "TF.DESC_OUTDOOR_SPEED": "Hoe snel de thermosfles buitenshuis afkoelt, ten opzichte van de originele waarde. Lager = blijft langer warm."
+  },
+  "Japanese": {
+    "TF.SEC_INDOOR": "屋内での保温",
+    "TF.SEC_OUTDOOR": "屋外での保温",
+    "TF.INDOOR_SPEED": "屋内での冷却速度",
+    "TF.OUTDOOR_SPEED": "屋外での冷却速度",
+    "TF.DESC_INDOOR_SPEED": "水筒が屋内でどれだけ速く冷めるか（デフォルト比）。低いほど長く温かさを保つ。",
+    "TF.DESC_OUTDOOR_SPEED": "水筒が屋外でどれだけ速く冷めるか（デフォルト比）。低いほど長く温かさを保つ。"
+  },
+  "Korean": {
+    "TF.SEC_INDOOR": "실내 보온 유지",
+    "TF.SEC_OUTDOOR": "실외 보온 유지",
+    "TF.INDOOR_SPEED": "실내 냉각 속도",
+    "TF.OUTDOOR_SPEED": "실외 냉각 속도",
+    "TF.DESC_INDOOR_SPEED": "보온병이 실내에서 얼마나 빨리 식는지(기본값 대비). 낮을수록 더 오래 따뜻함을 유지합니다.",
+    "TF.DESC_OUTDOOR_SPEED": "보온병이 실외에서 얼마나 빨리 식는지(기본값 대비). 낮을수록 더 오래 따뜻함을 유지합니다."
+  },
+  "ChineseSimplified": {
+    "TF.SEC_INDOOR": "室内保温",
+    "TF.SEC_OUTDOOR": "室外保温",
+    "TF.INDOOR_SPEED": "室内降温速度",
+    "TF.OUTDOOR_SPEED": "室外降温速度",
+    "TF.DESC_INDOOR_SPEED": "保温瓶在室内降温的速度，相对于默认值。数值越低，保温时间越长。",
+    "TF.DESC_OUTDOOR_SPEED": "保温瓶在室外降温的速度，相对于默认值。数值越低，保温时间越长。"
+  },
+  "ChineseTraditional": {
+    "TF.SEC_INDOOR": "室內保溫",
+    "TF.SEC_OUTDOOR": "室外保溫",
+    "TF.INDOOR_SPEED": "室內降溫速度",
+    "TF.OUTDOOR_SPEED": "室外降溫速度",
+    "TF.DESC_INDOOR_SPEED": "保溫瓶在室內降溫的速度，相對於預設值。數值越低，保溫時間越長。",
+    "TF.DESC_OUTDOOR_SPEED": "保溫瓶在室外降溫的速度，相對於預設值。數值越低，保溫時間越長。"
+  }
+}

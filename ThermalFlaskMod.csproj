@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--Set this to your game install directory before building.-->
+    <TheLongDarkPath>W:/Steam/steamapps/common/TheLongDark</TheLongDarkPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>Latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <DebugType>embedded</DebugType>
+    <AssemblyName>ThermalFlaskMod</AssemblyName>
+    <RootNamespace>ThermalFlaskMod</RootNamespace>
+
+    <MelonLoaderDir>$(TheLongDarkPath)/MelonLoader</MelonLoaderDir>
+    <Il2CppDir>$(MelonLoaderDir)/Il2CppAssemblies</Il2CppDir>
+    <AssemblySearchPaths>$(AssemblySearchPaths);$(MelonLoaderDir)/net6;$(Il2CppDir);$(TheLongDarkPath)/Mods;</AssemblySearchPaths>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Common" />
+    <Reference Include="Il2CppInterop.Runtime" />
+    <Reference Include="MelonLoader" />
+    <Reference Include="0Harmony" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="Il2Cppmscorlib" />
+    <Reference Include="Il2CppSystem" />
+    <Reference Include="UnityEngine" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="ModSettings">
+      <HintPath>$(TheLongDarkPath)/Mods/ModSettings.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="localization.json" />
+  </ItemGroup>
+
+  <Target Name="CopyToMods" AfterTargets="Build">
+    <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll"
+          DestinationFolder="$(TheLongDarkPath)/Mods"
+          OverwriteReadOnlyFiles="true"
+          Condition="Exists('$(TheLongDarkPath)/Mods')" />
+  </Target>
+
+</Project>
